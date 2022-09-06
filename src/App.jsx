@@ -4,13 +4,13 @@ import { History } from "./pages/History"
 import { About } from "./pages/About"
 import { Menu } from "./pages/Menu"
 import { Navbar } from "./components/Navbar"
-
+import { Footer } from "./components/Footer"
 
 
 export function App(){
   
   return (
-    <div className="Container| w-screen max-w-screen h-screen">      
+    <div style={{backgroundColor:'#8C663C'}} className="Container| w-screen max-w-full ">      
       <Router>
         <Navbar/>
         <Routes>
