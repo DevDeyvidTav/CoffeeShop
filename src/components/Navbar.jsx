@@ -12,8 +12,7 @@ export function Navbar() {
       <p id='logo' className="logo| font-black text-6xl ml-4">CoffeeShop</p>
       <div className=" hidden lg:flex gap-24 mr-10">
         <NavLink to="/"><p>Home</p></NavLink>
-        <a href="#history"><NavLink to="/history"><p>Historia</p></NavLink></a>
-        <p>Sobre</p>
+        <NavLink to="/history"><p>Historia</p></NavLink>
         <NavLink to="/Menu">Cardápio</NavLink>
       </div>
       <p onClick={() => setOpen(true)} className={`${open? 'hidden' : ''} lg:hidden cursor-pointer mr-4`}><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
